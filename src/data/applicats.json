@@ -1,0 +1,103 @@
+[
+  {
+    "id": 100,
+    "firstName": "Friedrich",
+    "lastName": "Heinrich",
+    "email": "Friedrich.heinrich@gmail.com",
+    "phone": "+49 146 344 23811",
+    "status": "Appointment_Set",
+    "date": "22 JULY",
+    "time": "14:00",
+    "bid": false,
+    "bidAmount": 0
+  },
+  {
+    "id": 101,
+    "firstName": "Hans",
+    "lastName": "Ulrich",
+    "email": "Hans-Ulrich@gmail.com",
+    "phone": "+49 146 344 23811",
+    "status": "Appointment_Set",
+    "date": "22 JULY",
+    "time": "14:00",
+    "bid": false,
+    "bidAmount": 0
+  },
+  {
+    "id": 102,
+    "firstName": "Karlheinz",
+    "lastName": "Brandenburg",
+    "email": "karlheinzbrandenburg@gmail.com",
+    "phone": "+49 146 344 23811",
+    "status": "Appointment_Set",
+    "date": "22 JULY",
+    "time": "14:00",
+    "bid": false,
+    "bidAmount": 0
+  },
+  {
+    "id": 103,
+    "firstName": "Maxmillian",
+    "lastName": "Von Mustermann",
+    "email": "max.mustermann@gmail.com",
+    "phone": "+49 146 344 23811",
+    "status": "Property_Viewed",
+    "date": "11 JUNE",
+    "time": "19:00",
+    "bid": true,
+    "bidAmount": "250.000",
+    "bidCurrency": "€"
+  },
+  {
+    "id": 104,
+    "firstName": "Bernhard",
+    "lastName": "Weiß",
+    "email": "bernhard.weiß@gmail.com",
+    "phone": "+49 146 344 23811",
+    "status": "Property_Viewed",
+    "date": "11 JUNE",
+    "time": "19:00",
+    "bid": true,
+    "bidAmount": "250.000",
+    "bidCurrency": "€"
+  },
+  {
+    "id": 105,
+    "firstName": "Hansjörg",
+    "lastName": "Felmy",
+    "email": "Hansjörg.felmy@gmail.com",
+    "phone": "+49 146 344 23811",
+    "status": "Property_Viewed",
+    "date": "11 JUNE",
+    "time": "19:00",
+    "bid": true,
+    "bidAmount": "250.000",
+    "bidCurrency": "€"
+  },
+  {
+    "id": 106,
+    "firstName": "Gottschalk",
+    "lastName": "Godeslack",
+    "email": "gottschalk.godeslack@gmail.com",
+    "phone": "+49 146 344 23811",
+    "status": "Property_Viewed",
+    "date": "11 JUNE",
+    "time": "19:00",
+    "bid": true,
+    "bidAmount": "250.000",
+    "bidCurrency": "€"
+  },
+  {
+    "id": 107,
+    "firstName": "Ekkehard",
+    "lastName": "Hardy",
+    "email": "ekkehard.hardy@gmail.com",
+    "phone": "+49 146 344 23811",
+    "status": "Property_Viewed",
+    "date": "11 JUNE",
+    "time": "19:00",
+    "bid": true,
+    "bidAmount": "250.000",
+    "bidCurrency": "€"
+  }
+]
