@@ -1,0 +1,42 @@
+@import "../../variables";
+
+.content {
+  margin-top: 50px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  min-height: 80vh;
+  padding-bottom: 10px;
+
+  .failed {
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 60px;
+
+    .btn {
+      margin-top: 20px;
+    }
+  }
+
+  .applicants-count {
+    display: none;
+  }
+
+  @media (min-width: $breakpoint-web) {
+    margin-top: 20px;
+    .applicants-count {
+      display: flex;
+      padding-top: 20px;
+    }
+
+    .head {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 25px;
+
+      > div {
+        flex-grow: 1;
+      }
+    }
+  }
+}

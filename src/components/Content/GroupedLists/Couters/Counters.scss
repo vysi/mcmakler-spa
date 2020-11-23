@@ -1,0 +1,30 @@
+@import "../../../../variables.scss";
+
+.counters {
+  display: flex;
+  justify-content: flex-end;  
+  width: 98%;
+  height: 42px;
+  text-align: center;
+
+  div:first-child {
+    border-left: none;
+  }
+
+  div {
+    border-left: 1px solid #E6E6E6;
+    padding: 0 20px;
+  }
+
+  h1 {
+    color: $title;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 0.85rem;
+    color: $title;
+  }
+}

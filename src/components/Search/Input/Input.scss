@@ -1,0 +1,14 @@
+@import "../../../variables.scss";
+
+.search-input {
+  width: 100%;
+  
+  .search-icon{
+    color: $secondary;
+  }
+
+  @media(min-width: $breakpoint-web) {
+    width: 100%;
+    height: 40px;
+  }
+}

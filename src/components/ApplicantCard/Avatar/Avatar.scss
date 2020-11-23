@@ -1,0 +1,30 @@
+@import "../../../variables.scss";
+
+@mixin avatar($size) {
+  width: $size;
+  height: $size;
+  background-color: red;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+
+  .initials {
+    position: relative;
+    top: $size*0.25;
+    font-size: $size*0.25;
+    line-height: $size*0.5;
+    color: #fff;
+    font-weight: bold;
+  }
+}
+
+.avatar-circle { 
+  @include avatar(90px); 
+}
+
+@media(min-width: $breakpoint-web ) {
+  .avatar-circle { 
+    @include avatar(65px); 
+  }
+}
