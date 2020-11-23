@@ -1,0 +1,45 @@
+@import "../../../variables.scss";
+
+.filter-container {
+  display: flex;
+  margin-top: 30px;
+
+  .dropdown {
+    button {
+      border: 1px solid #E6E6E6;
+      font-size: 1.2rem;
+      padding: 15px 25px;
+
+      &:after {
+        margin-left: 0.555em;
+      }
+    }
+    margin-right: 10px;
+  }
+
+  @media(min-width: $breakpoint-web) {
+    margin-top: 0px;
+
+    .dropdown {
+      #dropdown-basic {
+        padding: 10px 15px;
+        font-size: 0.8rem;
+      }
+
+      &:after {
+        width: 1px;
+        color: $title;
+      }
+    }
+    // .dropdown {
+    //   button{
+    //     padding: 10px 20px;
+    //   }
+
+    //   &:after {
+    //     width: 30px;
+    //     color: $title;
+    //   }
+    // }
+  }
+}

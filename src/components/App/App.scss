@@ -1,0 +1,12 @@
+// @import "~bootstrap/scss/bootstrap";
+@import "../../variables.scss";
+
+.App {
+  background-color: #F8F8F8;
+  padding-top: 20px;
+  min-height: 100vh;
+
+  @media(min-width: $breakpoint-web) {
+    padding: 0 45px;
+  }
+}

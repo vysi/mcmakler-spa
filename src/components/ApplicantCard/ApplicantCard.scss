@@ -1,0 +1,54 @@
+@import "../../variables.scss";
+
+.applicant-card {
+  flex: 0 0 auto;
+  width: 280px;
+  height: 280px;
+  margin-right: 30px;
+  text-align: center;
+
+  .h5, p {
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #4A4A4A;
+  }
+
+  .badge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .badge {
+      font-size: 85%;
+      color: white;
+      margin-bottom: 10px;
+    }
+  }
+
+  .card-avatar {
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  @media(min-width: $breakpoint-web) {
+    width: 265px;
+    height: 225px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    .card-body {
+      padding-top: 11px;
+
+    }
+
+    .h5, p {
+      font-size: 0.9rem;
+      line-height: 0.8;
+    }
+
+    .badge-container .badge {
+      font-size: 65%;
+    }
+
+  }
+}
