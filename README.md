@@ -1,4 +1,4 @@
-# McMakler React Challenge
+# React Challenge
 
 Simple react starter with the following config:
 
